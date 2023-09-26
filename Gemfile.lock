@@ -1,0 +1,26 @@
+PATH
+  remote: .
+  specs:
+    aaa (0.1.0)
+      zzz
+    bbb (0.1.0)
+    ccc (0.1.0)
+    ddd (0.1.0)
+    zzz (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  aaa!
+  bbb!
+  ccc!
+  ddd!
+  zzz!
+
+BUNDLED WITH
+   2.5.0.dev
