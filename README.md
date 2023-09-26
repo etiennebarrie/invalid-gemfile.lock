@@ -12,7 +12,7 @@ This repository demonstrates how a Bundler lockfile (`Gemfile.lock`) can become 
   `bbb`, `ccc`, and `ddd` dependencies.
 
 This results in an invalid `Gemfile.lock`, and while Bundler outputs a warning, it allows the installation and does not
-return an exit status code.
+return a non-zero exit status code.
 
 One solution is to use [Git attributes][gitattributes] to disallow all merges to Gemfile.lock. This can be seen in the
 [`gitattributes` branch][gitattributes branch], which defines the merge driver for `Gemfile.lock` to be `binary`. This
